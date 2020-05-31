@@ -12,6 +12,7 @@ az account set --subscription "Azure MSDN Trial"
 az group create --name Test --location westeurope
 az group list
 az group list --output table
+# JMESPath Query https://jmespath.org/
 az group list --query "[?name == 'Test']"
 az group delete --name Test
 az group list --query "[?name == 'Test']"
