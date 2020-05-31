@@ -1,4 +1,7 @@
-﻿# Login to Azure
+﻿# Install Azure Modules
+Install-Module -Name Az -AllowClobber
+
+# Login to Azure
 Connect-AzAccount
 # alias Login-AzAccount
 # alias Add-AzAccount
